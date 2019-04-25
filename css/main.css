@@ -97,7 +97,8 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background: url("../img/portland-hero.png") no-repeat fixed center;
+  background-size: cover;
   height: 100%;
 }
 
@@ -108,25 +109,36 @@ body {
   height: 100%;
 }
 
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .wrapper {
   font-weight: 700;
-  height: 100%;
+  height: 150px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin: 50px 0 0 0;
 }
 
 .div-1, .div-2, .div-3 {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
   height: 300px;
   width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.horizontal-rule {
+    border-left: 1px solid white;
+    height: 80%;
 }
 
 
